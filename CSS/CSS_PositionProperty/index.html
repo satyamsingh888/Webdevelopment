@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devwidthice-, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        img{
+            
+            margin: 10px;
+        }
+        .img2{
+             /* position: relative;
+            top: 100px;
+            left: 100px; 
+            position:absolute;
+            bottom: 100px;  */
+
+        }
+        .container{
+            position: relative;
+            height: 8000px;
+            background-color: aqua;
+        }
+        .img4{
+            position: fixed;
+
+        }
+        .img3{
+            position:sticky;
+            top: 200px;
+        }
+        .box{
+            background-color: bisque;
+            height: 5000px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>CSS Position Property</h1> 
+<p>The position property specifies the type of positioning method used for an element.</p>
+<!-- <ul>
+    <li>static</li>
+    <li>relative</li>
+    <li>fixed</li>
+    <li>absolute</li>
+    <li>sticky</li>
+</ul>
+<p>By default, all elements have a static position, which means that the element will flow into the page as it normally would.</p>
+<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+<p>Elements with position: relative; are positioned relative to their normal position:</p>
+<p>Elements with position: absolute; are positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p> -->
+
+<div class="container">
+    <img src="https://www.hindustantimes.com/ht-img/img/2024/12/03/1600x900/Solo_Leveling_-ReAwakening-_1733265634125_1733265645979.jpg" alt="image not found" height="300px" width="300px" class="img1">
+    <img src="https://www.hindustantimes.com/ht-img/img/2024/12/03/1600x900/Solo_Leveling_-ReAwakening-_1733265634125_1733265645979.jpg" alt="image not found" height="300px" width="300px" class="img2"> 
+    <img src="https://www.hindustantimes.com/ht-img/img/2024/12/03/1600x900/Solo_Leveling_-ReAwakening-_1733265634125_1733265645979.jpg" alt="image not found" height="300px" width="300px" class="img3">
+    <img src="https://www.hindustantimes.com/ht-img/img/2024/12/03/1600x900/Solo_Leveling_-ReAwakening-_1733265634125_1733265645979.jpg" alt="image not found" height="300px" width="300px" class="img4">
+</div>
+<div class="box"></div>
+
+</body>
+</html>

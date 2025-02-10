@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+        border: 1px solid black;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        margin: 10px;
+        padding: 2px;
+        }
+        #boxleft{
+            background-color: bisque;
+              border: 1px solid rgb(212, 34, 165);
+              width: 47%;
+              margin: 3px;
+              padding: 2px;
+              flex-direction: column;
+        }
+        #boxright{
+            background-color: red;
+              border: 1px solid rgb(185, 217, 26);
+               width: 47%;
+                margin: 3px;
+              padding: 2px;
+        }
+      
+        p{
+            border: 1px solid blue;
+        }
+        @media(max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+<p>text1</p>
+<p>text2</p>
+        </div>
+        <div id="boxrigth">
+<img src="https://www.hindustantimes.com/ht-img/img/2024/12/03/1600x900/Solo_Leveling_-ReAwakening-_1733265634125_1733265645979.jpg" alt="image not found" height="175px" width="170px" class="img1">
+        </div>
+    
+</body>
+</html>

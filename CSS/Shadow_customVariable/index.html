@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+              --primary-color: brown;
+            --custom-width: 330px;
+        }
+        .container{
+            background-color: aqua;
+            height: 650px;
+            border: 2px solid black;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+        }
+        .box{
+            /* --primary-color: brown;
+            --custom-width: 330px; */
+            background-color:beige;
+            width: var(--custom-width);
+            height: 330px;
+            border: 3px solid var(--primary-color);
+            /* overflow:auto; */
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 10px 15px var(--primary-color); */
+
+           /* box-shadow: 10px 15px 20px brown; */  
+           /* box-shadow: 10px 15px 20px 20px brown; */
+           /* box-shadow: inset 10px 15px  brown; */
+           /* box-shadow: 10px 15px  brown,20px 20px green,30px 35px  rgb(0, 0, 0); */
+        }
+        #head1{
+            /* text-shadow: 4px 4px 2px brown; */
+            /* text-shadow: green 3px 5px 2px; */
+            /* text-shadow: rgb(20, 145, 195) 3px 5px\ */
+            /* text-shadow: 5px 6px; */
+            text-shadow: 2px 3px 4px  red,  3px 4px 5px green, 4px 5px 6px blue  ;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg" alt="" width="100px" height="100px">
+            <h2 id="head1">welcome to code</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nulla suscipit voluptatibus recusandae, assumenda a. Repellendus laudantium, autem soluta vel incidunt deleniti eaque vero rerum, aut quasi similique nam officiis?</p>
+        </div>
+    </div>
+</body>
+</html>
