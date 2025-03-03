@@ -11,6 +11,7 @@
 //     i++;
 // }
 
+
 // let i = 5;
 // let countdown = []
 // while(i>0){
@@ -29,14 +30,12 @@
 // }
 // }while (tea!=="stop");
 
-
 // let total =0;
 // let k  = 1;
 // do{
 // total +=k;
 // k++;
 // } while(k<=3);
-
 
 // let multipliedNumber = [];
 // let arr = [2,4,6];
@@ -48,6 +47,35 @@
 
 
 
+let teas = ["green tea", "black tea", "Lemon tea", "chai", "herbal tea"];
+let selectedTeas = [];
+for (let i = 0; i < teas.length; i++) {
+  // if(teas[i]!="chai"){
+
+  //     selectedTeas.push(teas[i]);
+  // }else{
+  //     continue;
+  // }
+  
+  if (teas[i] === "chai") {
+    break;
+  }
+  selectedTeas.push(teas[i]);
+}
+console.log(selectedTeas);
+
+
+let cities = ["London","New Work", "Paris" , "Berlin"];
+let visitedCities = [];
+for(let i =0; i<cities.length; i++){
+    if(cities[i]==="Paris"){
+        continue;
+    }
+    visitedCities.push(cities[i]);
+}
+// console.log(visitedCities);
+
+//for of loop
 
 
 
