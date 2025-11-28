@@ -144,3 +144,4 @@ const shoppingCart = [
 
 const totalCourse = shoppingCart.reduce((acc ,item)=>acc + item.price,0);
 console.log(totalCourse);
+

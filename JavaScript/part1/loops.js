@@ -75,6 +75,8 @@
 // }
 // // console.log(visitedCities);
 
+
+
 // //for of loop ---------------------------
 // let numbers = [1,2,3,4,5]
 // let smallNumbers = []
@@ -86,6 +88,8 @@
 // }
 // // console.log(smallNumbers);
 
+
+
 // let tea = ["chai", "green teas", "Herbal teas", "black teas"];
 // let preferredTeas = []
 // for(const SelectedTeas of tea){
@@ -96,9 +100,11 @@
 // }
 // // console.log(preferredTeas);
 
+
+
 // //for in ------------------------
 
-// // 
+
 
 // let worldCities = {
 //   Sydney: 500000,
