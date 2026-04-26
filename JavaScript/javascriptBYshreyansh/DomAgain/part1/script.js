@@ -9,15 +9,24 @@ let h3 = document.querySelector('h3');
 // console.dir(abcd);
 h3.textContent='helo satyam kaise ho';
 h3.innerHTML = "<i>kya hal hai <i>"
-// h1.hidden = true
+// // h1.hidden = true
  
 
 
 let a = document.querySelector("a");
 // a.href = 'https://google.com'
-// a.setAttribute("href",'https://amazone.com')
+a.setAttribute(
+  "href" , "https://amazon.com",
+ 
+)
+console.dir( a.getAttribute('href'));
+a.setAttribute(
+  "target" , "__blank"
+ 
+)
 // console.dir( a.getAttribute('href'));
-let remove = a.removeAttribute('href')
+// let remove = a.removeAttribute('href')
+
 console.log(a);
 
 
@@ -25,7 +34,7 @@ console.log(a);
 let img = document.querySelector('img')
 img.setAttribute(
   "src",
-  "https://m.media-amazon.com/images/I/71YWNcUG6-L._UF1000,1000_QL80_.jpg" 
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS40W5iv05kWtQ5-R5mcD_ozIXiUMeSnRoRo7Asxj6K4M-JV6ZE8htCsqdXLMabboAEqm-KE7pmeBFc9ersMDDKPxMf4oWR7aWgdPb9rpI&s=10" 
 );
 
 
@@ -36,7 +45,4 @@ let h1 = document.createElement('h1');
 h1.textContent = 'hello ji';
 document.querySelector('body').prepend(h1)
 
-h3.remove()
-
-
-
+// h3.remove()

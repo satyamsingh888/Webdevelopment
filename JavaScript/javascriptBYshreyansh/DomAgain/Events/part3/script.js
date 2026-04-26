@@ -1,11 +1,13 @@
-let h = document.querySelector('#h1');
-window.addEventListener('keydown',function(dets){
-    if(dets.key===" "){
-        h.textContent = 'spc';
-    }
-    else{
-h.textContent = dets.key;
+let btn = document.querySelector('#btn');
+let fileinp = document.querySelector('#fileInput');
+btn.addEventListener("click",function(){
+    fileinp.click();
+})
 
-}
-// console.log(dets);
+fileinp.addEventListener("change", function(dets){
+   let file = dets.target.files[0];
+   if(file){
+
+       btn.textContent = file.name;
+   } 
 })

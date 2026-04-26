@@ -44,7 +44,13 @@ console.log("Satyam" && 21);
 console.log(0 && "Hello");
 console.log(true && 5 && null && "React");
 
+console.log(0 || 'satyam'&& `singh` && 1 );
+console.log( 0 && "ram" || "shyam" && true );
+console.log( false && 10 || 20 && 30 );
+console.log( null || 0 && "ok" || "done" );
 
+console.log( undefined && "Satyam" || 0 && "Singh" || "JS" );
+console.log( true && 0 || false && "ok" && "end" );
 
 
 

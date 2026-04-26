@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         *{
+          *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -15,40 +15,74 @@
         html,body{
             width:100%;
             height: 100%;
+            background-color: #000000;
+            
+          
+            
+            
+           
         }
-        #main{
-            width: 100%;
-            background-color:#222;
+         #main{
+           padding: 30px;
             height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: grey;
+            
+           
            
         }
         input{
-            display: none;
+        
+            background-color: #2e2828;
+            color: rgb(2, 168, 93);
+            display: block;
+          
         }
-        #btn{
-            padding: 12px 22px;
-            background-color: red;
-            color: black;
+        .card{
+            max-width:300px ;
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #555;
             border-radius: 5px;
-            font-weight: bold;
+          color: azure;
+          background-color: #2e04c3;
         }
-        #btn:hover{
-            background-color:rgb(91, 2, 2);
+        .profile{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            overflow: hidden;
+        
         }
+        .profile img{
+           width: 100%; 
+           height: 100%;
+           object-fit: cover;
+        }
+        .card h5{
+            margin-top:5px ;
+            
+        }
+        .card p{
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        
     </style>
 </head>
 <body>
     <div id="main">
         
-        <input  id="fileinp" type="file">
-        <div id="btn">
-            Upload File
-        </div>
+        <form action="">
+            <input type="text" placeholder="profile pic">
+         <input type="text" placeholder="name">
+         <input type="text" placeholder="occupation">
+         <input type="text" placeholder="info">
+         <input type="submit">
+        </form>
+       
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
