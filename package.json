@@ -1,25 +1,5 @@
 {
-  "name": "webdevelopment",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/satyamsingh888/Webdevelopment.git"
-  },
-  "author": "Satyam Singh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/satyamsingh888/Webdevelopment/issues"
-  },
-  "homepage": "https://github.com/satyamsingh888/Webdevelopment#readme",
   "dependencies": {
-    "accessibility": "^6.1.0",
-    "chalk": "^5.6.2",
-    "express": "^5.2.1",
-    "one-liner-joke": "^1.2.2"
+    "express": "^5.2.1"
   }
 }
