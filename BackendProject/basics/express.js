@@ -28,7 +28,8 @@ app.use(function(req,res,next){
 })
 function logger(req,res,next){
     console.log("middleware chal gya ek or baar");
-    next();                                            //middleware
+    next ();                                           
+     //middleware
 }
 app.use(logger);
 
@@ -39,12 +40,18 @@ app.get("/",function(req,res){
 app.get("/about",function(req,res){     //route
     res.send("champion mere papa")
 })
+
+app.get('/singh',function(req,res){
+    res.send("<h1>hello world</h1>")
+})
 app.get("/profile",function(req,res, next){
    return next(new Error("something went wrong"))
 })
 
 app.use((err,req,res,next)=>{
 console.error(err.stack);
-res.status(500).send("Something broke!")     //Error handling
+res.status(500).send("Something broke!")  
+
+//Error handling
 })
 app.listen(3000);
